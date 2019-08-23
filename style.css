@@ -1,6 +1,98 @@
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 4rem;
-    color: lightgray;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F8EFBA;
+    height: 100%;
+}
+
+.business-card {
+    position: relative;
+    height: 30rem;
+    width: 25rem;
+    background: #1e272e;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 8rem auto;
+}
+
+.card-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.picture {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    border: 7px solid #FFF;
+    overflow: hidden;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.picture img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.first {
+    height: 70%;
+    width: 100%;
+    position: relative;
+}
+
+.first .info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.first .my-name {
+    color: #FFF;
+    font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
     text-align: center;
+    display: block;
+    border-bottom: 3px solid #FFF;
+    width: 17rem;
+    margin-left: 4rem;
+}
+
+.first .job {
+    color: #FFF;
+    font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+}
+
+.second {
+    height: 30%;
+    width: 100%;
+}
+
+.second p {
+    color: #FFF;
+    font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    padding: 0 1rem;
+    padding-top: 0.5rem;
+}
+
+.second .social {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.social a img {
+    height: 45px;
+    width: 45px;
+    margin: 0 10px;
 }
