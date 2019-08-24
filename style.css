@@ -4,19 +4,27 @@
     padding: 0;
 }
 
+html {
+    height: 100%; 
+}
+
 body {
-    background: #FFFAF0;
-    height: 100%;
+    background: #FFF;
+    background: url(./images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .business-card {
     position: relative;
     height: 30rem;
-    width: 25rem;
+    width: 26.5rem;
     background: #1e272e;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     overflow: hidden;
-    margin: 8rem auto;
+    margin: 15rem auto;
+    display: flex; 
 }
 
 .card-wrapper {
@@ -95,4 +103,44 @@ body {
     height: 45px;
     width: 45px;
     margin: 0 10px;
+}
+
+.vertical-nav {
+    height: 30rem;
+    width: 1.5rem; 
+    display: block;
+    float: right; 
+}
+
+.vertical-nav ul {
+    list-style: none; 
+    font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+}
+
+.vertical-nav ul li {
+    height: 10rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    width: 1.5rem;
+    text-align: center;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.vertical-nav ul li:hover {
+    text-decoration: underline;
+    padding: 1rem 0;
+}
+
+.about {
+    background: #3498db;
+}
+
+.projects {
+    background: #2ecc71;
+}
+
+.contact {
+    background: #e74c3c;
 }
