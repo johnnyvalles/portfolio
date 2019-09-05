@@ -5,27 +5,27 @@
 }
 
 html {
-    height: 100%; 
+    height: 100%;
 }
 
 body {
     background: #FFF;
     background: url(./images/back.png);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .business-card {
-    position: relative;
     height: 30rem;
     width: 25rem;
     background: #1e272e;
     border-radius: 15px;
     overflow: hidden;
-    margin: 15rem auto;
-    display: flex;
 }
 
 .card-wrapper {
-    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -33,7 +33,6 @@ body {
 .first {
     height: 70%;
     width: 100%;
-    position: relative;
 }
 
 .first .picture {
@@ -82,7 +81,6 @@ body {
     color: #FFF;
     font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    position: relative;
     padding: 0 1rem;
     padding-top: 0.5rem;
 }
