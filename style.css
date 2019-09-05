@@ -16,13 +16,12 @@ body {
 .business-card {
     position: relative;
     height: 30rem;
-    width: 26.5rem;
+    width: 25rem;
     background: #1e272e;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
     margin: 15rem auto;
-    display: flex; 
+    display: flex;
 }
 
 .card-wrapper {
@@ -31,32 +30,28 @@ body {
     width: 100%;
 }
 
-.picture {
-    position: absolute;
-    height: 13rem;
-    width: 13rem;
-    border-radius: 50%;
-    border: 7px solid #FFF;
-    overflow: hidden;
-    margin-left: 6rem;
-    margin-top: 2rem;
-}
-
-.picture img {
-    height: 15rem;
-    width: 15rem;
-}
-
 .first {
     height: 70%;
     width: 100%;
     position: relative;
 }
 
+.first .picture {
+    height: 70%;
+    padding: 2rem 0;
+}
+
+.picture img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: 7px solid #FFF;
+    display: block;
+    margin: 0 auto;
+}
+
 .first .info {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    height: 30%;
 }
 
 .first .my-name {
@@ -65,9 +60,9 @@ body {
     font-size: 2rem;
     text-align: center;
     display: block;
+    margin: 0 auto;
     border-bottom: 2.5px solid #FFF;
-    width: 17rem;
-    margin-left: 4rem;
+    width: 70%;
 }
 
 .first .job {
@@ -101,44 +96,4 @@ body {
     height: 45px;
     width: 45px;
     margin: 0 10px;
-}
-
-.vertical-nav {
-    height: 30rem;
-    width: 1.5rem; 
-    display: block;
-    float: right; 
-}
-
-.vertical-nav ul {
-    list-style: none; 
-    font-family: "Oswald", Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFF;
-}
-
-.vertical-nav ul li {
-    height: 10rem;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    width: 1.5rem;
-    text-align: center;
-    line-height: 1.5em;
-    text-transform: uppercase;
-}
-
-.vertical-nav ul li:hover {
-    text-decoration: underline;
-    padding: 1rem 0;
-}
-
-.about {
-    background: #3498db;
-}
-
-.projects {
-    background: #2ecc71;
-}
-
-.contact {
-    background: #e74c3c;
 }
