@@ -94,3 +94,22 @@ body {
     width: 45px;
     margin: 0 10px;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 375px) {
+    .business-card {
+        width: 90%;
+        height: 80%;
+        max-height: 35rem;
+        padding: 1rem 0;
+        box-sizing: content-box;
+    }
+
+    .first .picture {
+        padding: 1rem 0; 
+    } 
+
+    .picture img {
+        height: 100%;
+    }
+}
