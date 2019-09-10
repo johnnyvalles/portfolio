@@ -41,8 +41,7 @@ body {
 }
 
 .picture img {
-    height: 12rem;
-    width: 12rem;
+    height: 110%;
     border-radius: 50%;
     border: 7px solid #FFF;
     display: block;
